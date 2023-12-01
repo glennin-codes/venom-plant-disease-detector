@@ -8,7 +8,7 @@ export const HereosSection=({title}:heroesProps)=>{
     
   <div
       id="hero"
-      className=" w-full m-0 space-x-0 p-0 "
+      className=" w-full m-0 space-x-0 p-0 mt-16"
     >
       {/* <!-- Flex Container --> */}
       <div className=" flex md:flex-row w-full  flex-col-reverse px-6 mx-auto mt-10 space-y-0 md:space-y-0">
@@ -33,7 +33,7 @@ export const HereosSection=({title}:heroesProps)=>{
 
         {/* <!-- Image --> */}
         <div className=" flex  justify-center md:w-1/2 mb-32 space-y-1  ">
-          <img src="images/heroes.png" alt="tea"    className="w-1/2 h-3/4 "   />
+          <img src="images/heroes.png" alt="tea"    className="w-1/2 h-3/4 object-fit"   />
         </div>
       </div>
     </div>

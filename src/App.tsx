@@ -4,6 +4,7 @@ import { title } from "./constants"
 import './App.css'
 import { AboutUs } from "./components/Sections/AboutUs"
 import { WhyChoseUs } from "./components/whyChoseUs"
+import { Footer } from "./components/footer"
 function App() {
 
   return (
@@ -12,7 +13,9 @@ function App() {
     <NavBar/>
     <HereosSection title={title}/>
     <AboutUs/>
+  
     <WhyChoseUs/>
+    <Footer/>
     </>
   )
 }
