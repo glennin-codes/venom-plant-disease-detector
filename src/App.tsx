@@ -5,6 +5,7 @@ import './App.css'
 import { AboutUs } from "./components/Sections/AboutUs"
 import { WhyChoseUs } from "./components/whyChoseUs"
 import { Footer } from "./components/footer"
+import { HowItworks } from "./components/howItWorks"
 function App() {
 
   return (
@@ -15,6 +16,7 @@ function App() {
     <AboutUs/>
   
     <WhyChoseUs/>
+    <HowItworks/>
     <Footer/>
     </>
   )

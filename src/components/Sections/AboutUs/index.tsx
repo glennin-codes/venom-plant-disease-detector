@@ -3,7 +3,7 @@ import { aboutUs } from "../../../constants"
 export const AboutUs=()=>{
     return(
         <section
-        className="w-full flex flex-col align-center md:space-y-12 justify-center m-0 p-0  "
+        className="w-full flex flex-col align-center md:space-y-12 justify-center m-0 p-0 font-Poppins "
            
         >
             <h1
@@ -20,7 +20,7 @@ export const AboutUs=()=>{
                     <img src="images/heroes2.png" alt="woman" className="w-full h-3/4 object-cover"/>
                </div>
                <div
-               className=" font-poppins text-base md:text-lg w-full md:w-1/2 align-center  align-center leading-loose  justify-center text-typographyGray-500 "
+               className="font-Poppins leading-7 text-base md:text-lg w-full md:w-1/2  flex align-center   justify-center text-typographyGray-500 "
                >
                     {aboutUs}
                </div>

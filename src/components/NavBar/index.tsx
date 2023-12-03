@@ -8,7 +8,7 @@ export const NavBar=()=>{
   };
     return(
         <nav
-        className="relative  container mx-auto p-6" 
+        className="relative  container mx-auto p-6 font-Poppins" 
         >
             {/* flex container */}
             <div className="flex items-center justify-between">
@@ -19,7 +19,7 @@ export const NavBar=()=>{
                       />
                </div>
                {/* --menu-items-- */}
-               <div className="hidden md:flex space-x-6">
+               <div className="hidden md:flex space-x-6 font-Poppins">
                   <a href='#'  className="hover:text-darkGrayishBlue" >Pricing</a>
                   <a href='#'  className="hover:text-darkGrayishBlue">Products</a>
                   <a href='#'  className="hover:text-darkGrayishBlue" >About us</a>
@@ -49,7 +49,7 @@ export const NavBar=()=>{
       <div className={`md:hidden `}>
         <div
           id="menu"
-          className={`absolute flex-col items-center ${isMenuOpen ? 'flex' : 'hidden'} self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md`}
+          className={`absolute  font-Poppinsflex-col items-center ${isMenuOpen ? 'flex' : 'hidden'} self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md`}
         >
           <a href="#">Pricing</a>
           <a href="#">Product</a>

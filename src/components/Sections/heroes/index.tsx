@@ -8,12 +8,12 @@ export const HereosSection=({title}:heroesProps)=>{
     
   <div
       id="hero"
-      className=" w-full m-0 space-x-0 p-0 mt-16"
+      className=" w-full m-0 space-x-0 p-0 mt-16 font-Poppins"
     >
       {/* <!-- Flex Container --> */}
       <div className=" flex md:flex-row w-full  flex-col-reverse px-6 mx-auto mt-10 space-y-0 md:space-y-0">
         {/* <!-- Left item --> */}
-        <div className="  flex justify-center md:w-1/2 px-4 mb-32 space-y-12  flex-col font-poppins  ">
+        <div className="  flex justify-center md:w-1/2 px-4 mb-32 space-y-12  flex-col font-Poppins  ">
           <h1 className="text-4xl font-bold md:text-5xl md:text-left text-center ">
             <span className="text-greenMain">Cultify:</span>
             {title.split(":").slice(1).join(":")}
