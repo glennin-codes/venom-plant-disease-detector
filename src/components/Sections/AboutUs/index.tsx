@@ -20,7 +20,7 @@ export const AboutUs=()=>{
                     <img src="images/heroes2.png" alt="woman" className="w-full h-3/4 object-cover"/>
                </div>
                <div
-               className="font-Poppins leading-7 text-base md:text-lg w-full md:w-1/2  flex align-center   justify-center text-typographyGray-500 "
+               className="font-Poppins sm:text-base xsm:text-base leading-7 text-base md:text-lg w-full md:w-1/2  flex align-center   justify-center text-typographyGray-500 "
                >
                     {aboutUs}
                </div>

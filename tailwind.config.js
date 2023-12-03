@@ -11,6 +11,7 @@ export default {
       lg:'976px',
       xl:'1440px'
     },
+  
     extend: {
      colors: {
       mainHeading: 'hsla(200, 19%, 18%, 1)',
@@ -33,8 +34,19 @@ export default {
       fontFamily: {
         Poppins: ['Poppins', 'sans-serif'],
       },
+      backgroundImage: {
+        'logins': "url('images/logins.jpeg')",
+        
+      }
+      
     },
   },
+  variants: {
+    extend: {
+      text: ['responsive'], // Adding the 'responsive' variant for the text utility class
+    },
+  },
+
   plugins: [],
 }
 

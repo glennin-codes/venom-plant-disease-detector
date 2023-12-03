@@ -1,25 +1,24 @@
-import { NavBar } from "./components/NavBar"
-import { HereosSection } from "./components/Sections/heroes"
-import { title } from "./constants"
-import './App.css'
-import { AboutUs } from "./components/Sections/AboutUs"
-import { WhyChoseUs } from "./components/whyChoseUs"
-import { Footer } from "./components/footer"
-import { HowItworks } from "./components/howItWorks"
-function App() {
+import { NavBar } from "./components/NavBar";
+import "./App.css";
+import { Footer } from "./components/footer";
 
+import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
+import { Home } from "./pages/Home";
+import { Login } from "./components/Login";
+
+function App() {
   return (
     <>
- 
-    <NavBar/>
-    <HereosSection title={title}/>
-    <AboutUs/>
-  
-    <WhyChoseUs/>
-    <HowItworks/>
-    <Footer/>
+      <Router>
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/login" element={<Login />} />
+        </Routes>
+        <Footer />
+      </Router>
     </>
-  )
+  );
 }
 
-export default App
+export default App;

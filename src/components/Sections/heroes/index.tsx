@@ -32,7 +32,7 @@ export const HereosSection=({title}:heroesProps)=>{
         </div>
 
         {/* <!-- Image --> */}
-        <div className=" flex  justify-center md:w-1/2 mb-32 space-y-1  ">
+        <div className=" flex  justify-center md:w-1/2 mb-32 space-y-1  w-full">
           <img src="images/heroes.png" alt="tea"    className="w-1/2 h-3/4 object-fit"   />
         </div>
       </div>
