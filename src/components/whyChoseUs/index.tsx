@@ -3,10 +3,10 @@ import { Card } from "../ui-components/cards"
 
 export const WhyChoseUs=()=>{
     return(
-        <div className="flex flex-col items-center justify-center w-full md:space-y-6 ">
-        <h1 className="text-3xl font-bold text-greenMain">Why Chose Us</h1>
+        <div className="flex flex-col items-center justify-center w-full md:space-y-6  ">
+        <h1 className="text-3xl font-bold text-greenMain mt-8">Why Chose Us</h1>
 
-        <div className="flex flex-wrap justify-center w-full md:mb-32 px-2">
+        <div className="flex flex-wrap justify-center w-full md:mb-32 px-2 mt-2 md:mt-0">
       {whyChoseUsConst.map(({icon,title,content},i:number) => (
              <Card key={i} icon={icon} title={title} content={content} />
       ))}
