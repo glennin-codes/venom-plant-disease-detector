@@ -20,7 +20,7 @@ export const Login=():JSX.Element=>{
     }
   
     return(
-        <div className="min-h-screen  flex items-center justify-center mt-0 space-y-0 bg-logins bg-no-repeat w-full bg-bottom bg-cover px-6 ">
+        <div className="min-h-screen  flex items-center justify-center mt-0 space-y-0 bg-logins bg-no-repeat w-full bg-center bg-cover px-6 ">
               <div className=" flex flex-col shadow-md  p-8 bg-white w-full max-w-md rounded-md font-Poppins">
                      <h1 className="text-center text-mainHeading text2xl md:text-3xl font-bold">
                      Welcome to <span className="text-darkGreen">Cultify</span>
