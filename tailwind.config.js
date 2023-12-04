@@ -38,7 +38,7 @@ export default {
         Poppins: ['Poppins', 'sans-serif'],
       },
       backgroundImage: {
-        'logins': "url('images/logins.jpeg')",
+        'logins': "url('/images/logins.jpeg')",
         
       }
       
