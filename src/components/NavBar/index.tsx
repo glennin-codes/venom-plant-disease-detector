@@ -9,7 +9,7 @@ export const NavBar=()=>{
   };
     return(
         <nav
-        className="relative  container mx-auto p-6 font-Poppins" 
+        className="relative   mx-auto p-6 font-Poppins" 
         >
             {/* flex container */}
             <div className="flex items-center justify-between">
@@ -57,7 +57,6 @@ export const NavBar=()=>{
           <a href="#">About Us</a>
           <a href="#">Careers</a>
           <a href="#">Community</a>
-          <Link to="/login">Login</Link>
         </div>
       </div>
             
