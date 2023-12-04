@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export const NavBar=()=>{
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
@@ -29,9 +30,9 @@ export const NavBar=()=>{
                </div>
                 {/* --button-- */}
                 <div className="hidden md:flex space-x-6">
-                  <a href="#" className="hidden p-3 px-6 pt-2 text-white bg-greenMain rounded-full baseline hover:bg-magenta md:block">
-                    Get Started
-                  </a>
+                  <Link to="/login" className="hidden p-3 px-6 pt-2 text-white bg-greenMain rounded-full baseline hover:bg-magenta md:block">
+                    Login
+                  </Link>
                 </div>
                 {/* <!-- Hamburger Icon --> */}
         <button
@@ -56,6 +57,7 @@ export const NavBar=()=>{
           <a href="#">About Us</a>
           <a href="#">Careers</a>
           <a href="#">Community</a>
+          <Link to="/login">Login</Link>
         </div>
       </div>
             

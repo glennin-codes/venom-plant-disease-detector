@@ -30,7 +30,10 @@ export default {
          brightRedLight: 'hsl(12, 88%, 69%)',
          brightRedSupLight: 'hsl(12, 88%, 95%)',
          darkBlue: 'hsl(228, 39%, 23%)',
+         darkGreen: 'hsla(80, 39%, 42%, 1)',
+         inputs:'hsla(217, 89%, 61%, 1)'
       },
+
       fontFamily: {
         Poppins: ['Poppins', 'sans-serif'],
       },
