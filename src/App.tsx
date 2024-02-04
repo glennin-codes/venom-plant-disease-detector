@@ -6,7 +6,8 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import { Home } from "./pages/Home";
 import { Login } from "./pages/Login";
 import { Signup } from "./pages/Signup";
-import Annalysis from "./pages/Dashboard/Annlysis";
+import Annalysis from "./pages/Annlysis";
+import SidebarWithContentSeparator from "./pages/Dashboard";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/annalysis" element={<Annalysis/>} />
+          <Route path="/dashboard" element={< SidebarWithContentSeparator/>} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
         </Routes>
