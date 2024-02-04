@@ -78,7 +78,7 @@ export const NavBar = () => {
           </Link>
           {/* <a href="#">About Us</a>
           {/* <a href="#">Careers</a> */}
-          {/* <a href="#">Community</a> */} */
+          {/* <a href="#">Community</a> */} 
           <Link to="/login">Login</Link>
         </div>
       </div>
