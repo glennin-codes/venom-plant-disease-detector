@@ -17,6 +17,7 @@ export default withMT({
     extend: {
      colors: {
       mainHeading: 'hsla(200, 19%, 18%, 1)',
+      cardBGColor: 'rgb(15 23 42)',
        greenMain: 'hsla(120, 100%, 25%, 1)',
         typographyGray: 'hsla(200, 19%, 18%, 1)',
         blackSubtitles: 'hsla(0, 0%, 0%, 1)',
