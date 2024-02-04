@@ -1,5 +1,7 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+const withMT = require("@material-tailwind/react/utils/withMT");
+ 
+export default withMT({
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -15,6 +17,7 @@ export default {
     extend: {
      colors: {
       mainHeading: 'hsla(200, 19%, 18%, 1)',
+      cardBGColor: 'rgb(15 23 42)',
        greenMain: 'hsla(120, 100%, 25%, 1)',
         typographyGray: 'hsla(200, 19%, 18%, 1)',
         blackSubtitles: 'hsla(0, 0%, 0%, 1)',
@@ -51,5 +54,5 @@ export default {
   },
 
   plugins: [],
-}
+})
 
