@@ -21,7 +21,7 @@ import {
 TableCellsIcon,
 } from "@heroicons/react/24/solid";
 import { ChevronRightIcon, ChevronDownIcon } from "@heroicons/react/24/outline";
-import  InputForm  from "./pages/InputForm";
+import  InputForm  from "./pages/UploadImage/InputForm";
 import Logout from "./pages/Logout";
 
 type SidebarItem = {
