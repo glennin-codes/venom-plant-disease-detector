@@ -37,7 +37,7 @@ const accordionItems: SidebarItem[] = [
     id: 1,
     icon: <PresentationChartBarIcon className="h-5 w-5" />,
     label: "Dashboard",
-    subItems: ["Usage Analytics", "Bandwidth usage",],
+    subItems: ["Predict Disease", "Result",],
     useAccordion: true,
   },
 
@@ -75,10 +75,10 @@ const renderAccordionContent = (subItem: string) => {
 
   // Render the corresponding component based on the selected subitem
   switch (subItem) {
-    case "Usage Analytics":
+    case "Predict Disease":
       setSelectedContent( <InputForm  />);
       break;
-    case "Bandwidth usage":
+    case "Result":
       setSelectedContent( <InputForm  />);
       break;
       default:
@@ -125,10 +125,11 @@ className="md:hidden left-12 ml-10 p-5 bg-blue-500"
           <span style={{backgroundColor:"green"}} className="hamburger-middle text-blue-500"></span>
           <span style={{backgroundColor:"green"}} className="hamburger-bottom text-blue-500"></span>
         </button>
-    <Card 
+    <div
+    
  className={`${
   isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full'
-} md:translate-x-0  card-color transition-transform  duration-300 ease-in-out md:duration-0 md:ease-in-out h-[calc(100vh-2rem)] w-full max-w-[20rem] p-4 shadow-xl shadow-blue-gray-900/5 fixed lg:static  mt-5`}
+} md:translate-x-0   transition-transform  duration-300 ease-in-out md:duration-0 md:ease-in-out h-[calc(100vh-2rem)] w-full max-w-[20rem] p-4  fixed lg:static  mt-5`}
   >
         <div className=" mb-2 p-4">
         <Typography variant="h5" >
@@ -183,7 +184,7 @@ className="md:hidden left-12 ml-10 p-5 bg-blue-500"
           </ListItem>
         ))}
       </List>
-    </Card>
+    </div>
     <div className="flex-1 p-4 card-color ">
        
         {selectedContent}

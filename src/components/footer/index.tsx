@@ -79,7 +79,7 @@ export const Footer = () => {
                   className="flex-1 px-4 rounded-full focus:outline-none"
                   placeholder="subscribe to our email"
                 />
-                <button className="px-6 py-2 text-white rounded-full bg-greenMain hover:bg-greenMainLight focus:outline-none">
+                <button className="px-6 py-2 text-white rounded-full bg-greenMain hover:bg-darkGreen focus:outline-none">
                   Go
                 </button>
               </div>
