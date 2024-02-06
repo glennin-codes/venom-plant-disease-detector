@@ -5,7 +5,7 @@ interface Props{
 function SmallCard({text}:Props) {
   return (
     <div
-    className='rounded-sm shadow-md  text-gray-500 p-4  '
+    className='rounded-md shadow-md  text-gray-500 p-4  '
     >{text} </div>
   )
 }
