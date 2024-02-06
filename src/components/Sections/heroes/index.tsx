@@ -15,7 +15,7 @@ export const HereosSection = ({ title }: heroesProps) => {
       
       <div className="flex md:flex-row w-full gap-4 flex-col px-6 mx-auto space-y-4 md:space-y-0">
        
-        <div className="flex md:w-1/2 px-4 space-y-1 md:gap-6 gap-2 flex-col font-Poppins">
+        <div className="flex md:w-1/2 px-4 space-y-1 md:gap-6 gap-2 flex-col ">
           <h1 className="text-4xl font-bold md:text-5xl md:text-left text-center">
             <span className="text-greenMain">Cultify:</span>
             {title.split(":").slice(1).join(":")}

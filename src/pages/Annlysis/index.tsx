@@ -50,7 +50,7 @@ export const data = {
 export default function Annalysis() {
   return (
     <>
-    <div  className="flex m-0 p-0 space-x-0  border border-solid border-blue md:flex-row  gap-4 w-full h-full font-Poppins mb-6 px-6 py-3 border-none shadow-none  flex-col">
+    <div  className="flex m-0 p-0 space-x-0  border border-solid border-blue font-Montserrat md:flex-row  gap-4 w-full h-full  mb-6 px-6 py-3 border-none shadow-none  flex-col">
       <div
         
         className="flex flex-col   gap-4 w-full md:w-1/2 rounded-none md:flex-row  items-center mt-4"
@@ -60,7 +60,7 @@ export default function Annalysis() {
 
             <Square3Stack3DIcon className="h-12 w-12 text-indigo-500" />
 
-            <Typography variant="h4" className="text-greenMain font-Poppins">
+            <Typography variant="h4" className="text-greenMain ">
               Disease Distribution in Nairobi
             </Typography>
           </div>

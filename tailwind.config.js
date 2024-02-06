@@ -39,6 +39,7 @@ export default withMT({
 
       fontFamily: {
         Poppins: ['Poppins', 'sans-serif'],
+       Montserrat: ['Montserrat', 'sans-serif'],
       },
       backgroundImage: {
         'logins': "url('/images/logins.jpeg')",

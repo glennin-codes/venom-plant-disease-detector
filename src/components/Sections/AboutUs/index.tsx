@@ -3,7 +3,7 @@ import { aboutUs } from "../../../constants"
 export const AboutUs=()=>{
     return(
         <section
-        className="w-full flex flex-col gap-4   align-center justify-center m-0 p-0 font-Poppins "
+        className="w-full flex flex-col gap-4   align-center justify-center m-0 p-0  "
            
         >
             <h1
@@ -21,7 +21,7 @@ export const AboutUs=()=>{
                </div>
                <div
                
-               className="font-Poppins font-normal sm:text-base xsm:text-base leading-7 text-base md:text-lg w-full md:w-1/2  flex align-center  leading-relaxed  justify-center text-typographyGray-500 "
+               className=" font-normal sm:text-base xsm:text-base leading-7 text-base md:text-lg w-full md:w-1/2  flex align-center  leading-relaxed  justify-center text-typographyGray-500 "
                >
                     {aboutUs}
                </div>

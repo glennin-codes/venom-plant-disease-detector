@@ -14,27 +14,27 @@ export const HowItworks = () => {
           />
         </div>
         <div className="md:w-1/2 w-full flex-col justify-center align-center leading-10   ">
-          <p className='font-Poppins text-typographyGray-400'>
+          <p className=' text-typographyGray-400'>
             <span className="text-blackSubtitles-500 font-bold ">Capture:</span> Snap a photo of your plant to predict diseases with our
             advanced machine learning platform.
           </p>
-          <p className='font-Poppins text-typographyGray-400'>
+          <p className=' text-typographyGray-400'>
           <span className="text-blackSubtitles-500 font-bold ">Diagnose:</span>Receive instant disease diagnosis and access treatment
             recommendations.
           </p>
-          <p className='font-Poppins text-typographyGray-400'>
+          <p className=' text-typographyGray-400'>
           <span className="text-blackSubtitles-500 font-bold ">Connect:</span> Find nearby agrovet services for quick and effective
             solutions.
           </p>
-          <p className='font-Poppins text-typographyGray-400'>
+          <p className=' text-typographyGray-400'>
           <span className="text-blackSubtitles-500 font-bold ">Monitor:</span> Stay informed with real-time statistics on trending plant
             diseases in your area.
           </p>
-          <p className='font-Poppins text-typographyGray-400'>
+          <p className=' text-typographyGray-400'>
           <span className="text-blackSubtitles-500 font-bold ">Alert:</span> Receive timely notifications about potential disease
             outbreaks in your region.
           </p>
-          <p className='font-Poppins text-typographyGray-400'>Experience the future of plant care – join us today!</p>
+          <p className=' text-typographyGray-400'>Experience the future of plant care – join us today!</p>
           <div className="flex justify-start ">
             <Link
               to="/signup" 

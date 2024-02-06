@@ -8,7 +8,7 @@ export const NavBar = () => {
     setIsMenuOpen(!isMenuOpen);
   };
   return (
-    <nav className="relative   mx-auto p-6 font-Poppins">
+    <nav className="relative   mx-auto p-6 ">
       {/* flex container */}
       <div className="flex items-center justify-between">
         {/* --logo-- */}
@@ -16,7 +16,7 @@ export const NavBar = () => {
           <img src="images/logo.png" alt="logo" className="w-30% h-20%" />
         </Link>
         {/* --menu-items-- */}
-        <div className="hidden md:flex space-x-6 font-Poppins">
+        <div className="hidden md:flex space-x-6 ">
           <Link to="annalysis" className="hover:text-darkGrayishBlue">
             View Annalysis
           </Link>
@@ -62,7 +62,7 @@ export const NavBar = () => {
       <div className={`md:hidden `}>
         <div
           id="menu"
-          className={`absolute  font-Poppins flex-col items-center  ${
+          className={`absolute   flex-col items-center  ${
             isMenuOpen ? "flex" : "hidden"
           } self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 bg-opacity-50`}
         >
