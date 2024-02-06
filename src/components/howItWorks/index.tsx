@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export const HowItworks = () => {
   return (
     <div className=" mt-20 mb-12 flex flex-col align-center justify-center items-center md:px-6 px-4 w-full">
@@ -34,12 +36,12 @@ export const HowItworks = () => {
           </p>
           <p className='font-Poppins text-typographyGray-400'>Experience the future of plant care – join us today!</p>
           <div className="flex justify-start ">
-            <a
-              href="#" 
-              className="p-3 px-4 pt-2 text-white bg-greenMain rounded-full baseline hover:bg-brightRedLight"
-            >
+            <Link
+              to="/signup" 
+              className=" px-6 py-2 text-white bg-greenMain rounded-full baseline hover:bg-darkGreen"
+            > 
               Get Started
-            </a>
+            </Link>
           </div>
         </div>
        

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { descripto } from "../../../constants";
 
 type heroesProps = {
@@ -23,12 +24,12 @@ export const HereosSection = ({ title }: heroesProps) => {
             {descripto}
           </p>
           <div className="flex justify-start ">
-            <a
-              href="#"
-              className="p-3 px-6 pt-2 text-white bg-greenMain rounded-full baseline hover:bg-brightRedLight"
+            <Link
+              to="/signup"
+              className="p-3 px-6 pt-2 text-white bg-greenMain rounded-full baseline hover:bg-darkGreen"
             >
               Get Started
-            </a>
+            </Link>
           </div>
         </div>
 
