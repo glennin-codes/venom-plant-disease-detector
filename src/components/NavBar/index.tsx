@@ -8,7 +8,7 @@ export const NavBar = () => {
     setIsMenuOpen(!isMenuOpen);
   };
   return (
-    <nav className="relative   mx-auto p-6 ">
+    <nav className="relative    mx-auto p-6 ">
       {/* flex container */}
       <div className="flex items-center justify-between">
         {/* --logo-- */}
