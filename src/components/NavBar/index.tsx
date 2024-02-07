@@ -1,12 +1,23 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, Path, useNavigate } from "react-router-dom";
 
+import { useLocation } from 'react-router-dom';
+import { scrollToElement } from "../../helpers/scroll";
 export const NavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
 
   const toggleMenu = (): void => {
     setIsMenuOpen(!isMenuOpen);
   };
+  const navigate = useNavigate();
+ 
+  const goToHomeAndScroll = (elementName:string) => {
+    navigate('/');
+    setTimeout(() => {
+      scrollToElement(elementName);
+    },  0);
+  };
+
   return (
     <nav className="relative    mx-auto p-6 ">
       {/* flex container */}
@@ -24,12 +35,19 @@ export const NavBar = () => {
           <Link to="/dashboard" className="hover:text-darkGrayishBlue">
             Dashboard
           </Link>
-          <a href="#" className="hover:text-darkGrayishBlue">
-            About us
-          </a>
-          <a href="#" className="hover:text-darkGrayishBlue">
-            Documentation
-          </a>
+          <div
+            className="hover:text-darkGrayishBlue cursor-pointer"
+           onClick={()=>goToHomeAndScroll("about-us")}
+          >
+            About Us
+          </div>
+          
+          <div
+            className="hover:text-darkGrayishBlue cursor-pointer"
+           onClick={()=>goToHomeAndScroll("how-it-works")}
+          >
+            How It Works
+          </div>
           {/* <a href='#'  className="hover:text-darkGrayishBlue">Careers</a>
                   
                   <a href='#'  className="hover:text-darkGrayishBlue">Community</a>
@@ -70,12 +88,19 @@ export const NavBar = () => {
           <Link to="/dashboard" className="hover:text-darkGrayishBlue">
             Dashboard
           </Link>
-          <Link to="#" className="hover:text-darkGrayishBlue">
-            About us
-          </Link>
-          <Link to="#" className="hover:text-darkGrayishBlue">
-            Documentation
-          </Link>
+          <div
+            className="hover:text-darkGrayishBlue cursor-pointer"
+           onClick={()=>goToHomeAndScroll("about-us")}
+          >
+            About Us
+          </div>
+          
+          <div
+            className="hover:text-darkGrayishBlue cursor-pointer"
+           onClick={()=>goToHomeAndScroll("how-it-works")}
+          >
+            How It Works
+          </div>
           {/* <a href="#">About Us</a>
           {/* <a href="#">Careers</a> */}
           {/* <a href="#">Community</a> */} 

@@ -1,9 +1,13 @@
-import { aboutUs } from "../../../constants"
+import { useLocation } from "react-router-dom";
+import { aboutUs } from "../../../constants";
 
 export const AboutUs=()=>{
+
+  
     return(
         <section
-        className="w-full flex flex-col gap-4   align-center justify-center m-0 p-0  "
+        id="about-us"
+        className="w-full flex flex-col gap-4   align-center justify-center m-0 p-0 mb-4 "
            
         >
             <h1
@@ -17,7 +21,7 @@ export const AboutUs=()=>{
                <div
                className="w-full md:w-1/2  "
                >
-                    <img src="images/heroes2.png" alt="woman" className="w-full h-3/4 rounded-md object-cover"/>
+                    <img src="images/heroes2.png" alt="woman" className="w-full h-2/3 rounded-md object-cover"/>
                </div>
                <div
                

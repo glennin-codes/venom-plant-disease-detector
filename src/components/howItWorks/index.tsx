@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export const HowItworks = () => {
   return (
-    <div className=" mt-20 mb-12 flex flex-col align-center justify-center items-center md:px-6 px-4 w-full">
+    <div id="how-it-works" className=" mt-20 mb-12 flex flex-col align-center justify-center items-center md:px-6 px-4 w-full">
       <h1 className="text-greenMain text-center text-2xl font-bold md:text-3xl mb-12">
         How It Works
       </h1>
@@ -34,7 +34,7 @@ export const HowItworks = () => {
           <span className="text-blackSubtitles-500 font-bold ">Alert:</span> Receive timely notifications about potential disease
             outbreaks in your region.
           </p>
-          <p className=' text-typographyGray-400'>Experience the future of plant care – join us today!</p>
+          <p className=' text-typographyGray-400 mb-4'>Experience the future of plant care – join us today!</p>
           <div className="flex justify-start ">
             <Link
               to="/signup" 
