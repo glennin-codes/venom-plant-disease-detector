@@ -118,7 +118,7 @@ className="md:hidden left-12 ml-10 p-5 bg-blue-500"
       <button
          onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}
           id="menu-btn"
-          className={`block hamburger md:hidden left-5 focus:outline-none  ${
+          className={`block hamburger md2:hidden  left-5 focus:outline-none  ${
             isMobileMenuOpen ? "open" : ""
           }`}
         >
@@ -130,7 +130,7 @@ className="md:hidden left-12 ml-10 p-5 bg-blue-500"
     
  className={`${
   isMobileMenuOpen ? 'translate-x-0' : '-translate-x-full'
-} md:translate-x-0   transition-transform  duration-300 ease-in-out md:duration-0 md:ease-in-out h-[calc(100vh-2rem)] bg-white w-full max-w-[20rem] p-4  fixed lg:static  mt-5`}
+} md2:translate-x-0   transition-transform  duration-300 ease-in-out md2:duration-0 md2:ease-in-out h-[calc(100vh-2rem)] bg-white w-full max-w-[20rem] p-4  fixed md2:static  mt-5`}
   >
         <div className=" mb-2 p-4">
         <Typography variant="h5" >

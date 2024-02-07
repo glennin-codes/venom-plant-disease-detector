@@ -10,6 +10,7 @@ export default withMT({
     screens:{
       sm:'480px',
       md:'768px',
+      md2:'975px',
       lg:'976px',
       xl:'1440px'
     },

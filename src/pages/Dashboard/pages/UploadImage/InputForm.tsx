@@ -72,7 +72,7 @@ function InputForm() {
 
         <div className=" md:w-1/2 h-full w-full flex flex-col ">
           <div className="flex flex-col md:gap-1 gap-4">
-            <h5 className="text-2xl font-bold text-gray-800 mb-4">
+            <h5 className="md:text-xl text-l font-bold text-gray-800 mb-4">
               <span className="text-greenMain">
                 Guidelines for Effective Image Upload:
               </span>{" "}
