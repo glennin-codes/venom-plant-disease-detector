@@ -2,13 +2,10 @@ import React from "react";
 
 function Profile() {
   console.log(Math.floor(Math.random() * 100) + 1);
-  const url: string = `https://randomuser.me/api/portraits/men/${
-    Math.floor(Math.random() * 100) + 1
-  }.jpg`;
+  const url: string = `https://randomuser.me/api/portraits/men/${Math.floor(Math.random() * 100) + 1 }.jpg`;
 
   return (
     <div className="px-8">
-      <h2 className="text-center font-medium mb-16">Profile</h2>
       <div className="flex flex-row justify-center items-center gap-6 w-full pl-16 mb-16">
         <div className="">
           <img

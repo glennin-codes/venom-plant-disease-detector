@@ -16,7 +16,7 @@ export const NavBar = () => {
           <img src="images/logo.png" alt="logo" className="w-30% h-20%" />
         </Link>
         {/* --menu-items-- */}
-        <div className="hidden md:flex space-x-6 ">
+        <div className="hidden md2:flex space-x-6 ">
           <Link to="annalysis" className="hover:text-darkGrayishBlue">
             View Annalysis
           </Link>
@@ -36,7 +36,7 @@ export const NavBar = () => {
                   <a href='#'  className="hover:text-darkGrayishBlue" >Plants</a>  */}
         </div>
         {/* --button-- */}
-        <div className="hidden md:flex space-x-6">
+        <div className="hidden md2:flex space-x-6">
           <Link
             to="/login"
             className="hidden p-3 px-6 pt-2 text-white bg-greenMain rounded-full baseline hover:bg-brightRedLight md:block"
@@ -48,7 +48,7 @@ export const NavBar = () => {
         <button
           onClick={toggleMenu}
           id="menu-btn"
-          className={`block hamburger md:hidden focus:outline-none ${
+          className={`block hamburger md2:hidden focus:outline-none ${
             isMenuOpen ? "open" : ""
           }`}
         >
@@ -59,7 +59,7 @@ export const NavBar = () => {
       </div>
 
       {/* <!-- Mobile Menu --> */}
-      <div className={`md:hidden `}>
+      <div className={`md2:hidden `}>
         <div
           id="menu"
           className={`absolute   flex-col items-center  ${
