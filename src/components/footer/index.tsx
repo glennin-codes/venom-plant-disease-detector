@@ -1,6 +1,14 @@
+import { useEffect, useState } from 'react';
 import { FaPinterest, FaYoutube, FaTwitter, FaInstagram ,FaFacebook} from 'react-icons/fa';
 
 export const Footer = () => {
+  const [year,setYear] = useState<number | null>(2024);
+  useEffect(()=>{
+    setYear(new Date().getFullYear());
+  
+  },[]);
+console.log({year})
+
   return (
     <>
       {/* <!-- List Container -->    */}
@@ -10,7 +18,7 @@ export const Footer = () => {
           {/* <!-- Logo and social links container --> */}
           <div className="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-start">
             <div className="mx-auto my-6 text-center text-white md:hidden">
-              Copyright &copy; 2023, All Rights Reserved
+              Copyright &copy; {year}, All Rights Reserved
             </div>
             {/* <!-- Logo --> */}
             <div>
@@ -85,7 +93,7 @@ export const Footer = () => {
               </div>
             </form>
             <div className="hidden text-white md:block">
-              Copyright &copy; 2023, All Rights Reserved
+              Copyright &copy; {year}, All Rights Reserved
             </div>
           </div>
         </div>
