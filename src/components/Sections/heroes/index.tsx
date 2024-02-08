@@ -33,7 +33,7 @@ export const HereosSection = ({ title }: heroesProps) => {
           </div>
         </div>
 
-        <div className="flex md:h-[400px] h-[300px] justify-center md:w-1/2 overflow-hidden w-full rounded-md ">
+        <div className="flex md:h-[350px] h-[200px] justify-center md:w-1/2 overflow-hidden w-full rounded-md ">
           <img
             src="images/H.jpeg"
             alt="tomatoe"
