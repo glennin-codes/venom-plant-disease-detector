@@ -6,7 +6,7 @@ function Profile() {
 
   return (
     <div className="px-8">
-      <div className="flex flex-row justify-center items-center gap-6 w-full md:pl-16 mb-16">
+      <div className="flex flex-row justify-center items-center gap-6 w-full md:pl-16 md:mb-16 mb-8">
         <div className="">
           <img
             className="h-auto max-w-full rounded-full"
