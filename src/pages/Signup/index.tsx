@@ -23,8 +23,8 @@ export const Signup = (): JSX.Element => {
   };
 
   return (
-    <div className="min-h-screen  flex items-center justify-center mt-0 space-y-0 bg-logins bg-no-repeat w-full bg-center bg-cover px-6 ">
-      <div className=" flex flex-col shadow-md  p-8 bg-white w-full max-w-md rounded-md ">
+    <div className="min-h-screen  flex items-center justify-center mt-0  space-y-0 bg-logins bg-no-repeat w-full bg-center bg-cover px-6 ">
+      <div className=" flex flex-col shadow-md md:mt-32 md:mb-16 p-8 bg-white w-full max-w-md rounded-md ">
         <h1 className="text-center text-mainHeading text2xl md:text-3xl font-bold">
           Welcome to <span className="text-darkGreen">Cultify</span>
         </h1>
