@@ -20,7 +20,7 @@ export const NavBar = () => {
  
 
   return (
-    <nav style={{marginTop:0 ,top:0,}} className="fixed w-full top-0 mt-0 z-10 shadow-md shadow-green-5 d0 mb-64  bg-gray-50  mx-auto   ">
+    <nav style={{marginTop:0 ,top:0,}} className="fixed w-full top-0 mt-0 z-10 shadow-md shadow-green-50  mb-64  bg-gray-50  mx-auto   ">
       {/* flex container */}
       <div className="flex items-center justify-between px-4">
         {/* --logo-- */}
@@ -78,12 +78,12 @@ export const NavBar = () => {
       </div>
 
       {/* <!-- Mobile Menu --> */}
-      <div className={`md2:hidden `}>
+      <div className={`md2:hidden  w-sm top-0 mt-0 z-10 shadow-md shadow-green-50 `}>
         <div
           id="menu"
           className={`absolute   flex-col items-center  ${
             isMenuOpen ? "flex" : "hidden"
-          } self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 `}
+          } self-end py-8 w-1/2 right-0  space-y-6 font-bold bg-white sm:w-auto sm:self-center  `}
         >
           <Link to="annalysis">View Annalysis</Link>
           <Link to="/dashboard" className="hover:text-darkGrayishBlue">
