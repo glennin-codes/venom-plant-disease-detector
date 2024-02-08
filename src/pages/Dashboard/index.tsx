@@ -113,7 +113,7 @@ className="md:hidden left-12 ml-10 p-5 bg-blue-500"
 
   return (
   
-    <div className="flex   mb-10">
+    <div className="flex md2:mt-20  mt-24 mb-10">
    
       <button
          onClick={() => setMobileMenuOpen(!isMobileMenuOpen)}
