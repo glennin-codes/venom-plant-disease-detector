@@ -9,7 +9,7 @@ export const HereosSection = ({ title }: heroesProps) => {
   return (
     <div
       id="hero"
-      className="h-full w-full m-0 space-x-0 p-0 mt-16 font-Poppin  mb-16 mt-16 "
+      className="h-full w-full m-0 space-x-0 p-0 mt-16 font-Monsterrat  mb-16 mt-16 "
     >
 
       
@@ -33,7 +33,7 @@ export const HereosSection = ({ title }: heroesProps) => {
           </div>
         </div>
 
-        <div className="flex md:h-[350px] h-[200px] justify-center md:w-1/2 overflow-hidden w-full rounded-md ">
+        <div className="flex md:h-[350px] h-[250px] justify-center md:w-1/2 overflow-hidden w-full rounded-md ">
           <img
             src="images/H.jpeg"
             alt="tomatoe"
