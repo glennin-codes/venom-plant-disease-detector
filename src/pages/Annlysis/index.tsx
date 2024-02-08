@@ -50,7 +50,7 @@ export const data = {
 export default function Annalysis() {
   return (
     <>
-    <div  className="flex m-0 p-0 space-x-0  border border-solid border-blue font-Montserrat md:flex-row  gap-4 w-full h-full  mb-6 px-6 py-3 border-none shadow-none  flex-col">
+    <div  className="flex m-0 p-0 mt-20 mb-16 space-x-0  border border-solid border-blue font-Montserrat md:flex-row  gap-4 w-full h-full  px-6 py-3 border-none shadow-none  flex-col">
       <div
         
         className="flex flex-col   gap-4 w-full md:w-1/2 rounded-none md:flex-row  items-center mt-4"

@@ -4,7 +4,7 @@ export const Footer = () => {
   return (
     <>
       {/* <!-- List Container -->    */}
-      <footer className=" bg-veryDarkBlue bottom-0">
+      <footer className=" inset-x-0 bottom-0  bg-veryDarkBlue bottom-0">
         {/* <!-- Flex Container --> */}
         <div className="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0">
           {/* <!-- Logo and social links container --> */}

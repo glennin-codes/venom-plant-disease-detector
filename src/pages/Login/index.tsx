@@ -1,5 +1,6 @@
-import { ChangeEvent, FormEvent, useState } from "react"
+import { ChangeEvent, FormEvent, useEffect, useState } from "react"
 import { Link } from "react-router-dom";
+import ScrollToTop from "../../helpers/scrollToTop";
 
 export const Login=():JSX.Element=>{
     const [userName, setUserName] = useState('');
@@ -15,11 +16,13 @@ export const Login=():JSX.Element=>{
         setPassword(value);
       }
     };
+    
     const handleSubmit=(e: FormEvent<HTMLFormElement>)=>{
         e.preventDefault();
     }
   
     return(
+        <>
         <div className="min-h-screen  flex items-center justify-center mt-0 space-y-0 bg-logins bg-no-repeat w-full bg-center bg-cover px-6 ">
               <div className=" flex flex-col shadow-md  p-8 bg-white w-full max-w-md rounded-md ">
                      <h1 className="text-center text-mainHeading text2xl md:text-3xl font-bold">
@@ -74,5 +77,6 @@ export const Login=():JSX.Element=>{
               </div>
 
         </div>
+        </>
     )
 }

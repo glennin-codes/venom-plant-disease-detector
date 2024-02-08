@@ -9,7 +9,7 @@ import { title } from "../../constants"
 export const Home=(): ReactNode=>{
 
     return(
-       <>
+       <div className="mt-32">
         <HereosSection title={title}/>
         <HowItworks/>
         <WhyChoseUs/>
@@ -17,6 +17,6 @@ export const Home=(): ReactNode=>{
       
       
        
-       </>
+       </div>
     )
 }

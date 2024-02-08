@@ -7,10 +7,12 @@ export const AboutUs=()=>{
     return(
         <section
         id="about-us"
-        className="w-full flex flex-col gap-4   align-center justify-center m-0 p-0 mb-4 "
+
+        className="w-full flex flex-col gap-4   items-center justify-center m-0 px-4 mb-4 space-y-4 "
            
         >
             <h1
+             
             className="text-3xl font-bold text-center md:mb-6 text-greenMain "
             >
                 About Us

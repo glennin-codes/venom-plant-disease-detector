@@ -3,6 +3,7 @@ import { Link, Path, useNavigate } from "react-router-dom";
 
 import { useLocation } from 'react-router-dom';
 import { scrollToElement } from "../../helpers/scroll";
+
 export const NavBar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState<boolean>(false);
 
@@ -10,18 +11,18 @@ export const NavBar = () => {
     setIsMenuOpen(!isMenuOpen);
   };
   const navigate = useNavigate();
- 
-  const goToHomeAndScroll = (elementName:string) => {
+  const goToHomeAndScroll = (elementName:string,offsetTop:number) => {
     navigate('/');
     setTimeout(() => {
-      scrollToElement(elementName);
+      scrollToElement(elementName,offsetTop);
     },  0);
   };
+ 
 
   return (
-    <nav className="relative    mx-auto p-6 ">
+    <nav style={{marginTop:0 ,top:0,}} className="fixed w-full top-0 mt-0 z-10 shadow-md mb-64  bg-gray-50  mx-auto   ">
       {/* flex container */}
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between px-4">
         {/* --logo-- */}
         <Link to="/" className="bg-white-500 round-full pt-2 ">
           <img src="images/logo.png" alt="logo" className="w-30% h-20%" />
@@ -37,14 +38,14 @@ export const NavBar = () => {
           </Link>
           <div
             className="hover:text-darkGrayishBlue cursor-pointer"
-           onClick={()=>goToHomeAndScroll("about-us")}
+           onClick={()=>goToHomeAndScroll('about-us', -80)}
           >
             About Us
           </div>
           
           <div
             className="hover:text-darkGrayishBlue cursor-pointer"
-           onClick={()=>goToHomeAndScroll("how-it-works")}
+             onClick={()=>goToHomeAndScroll("how-it-works",-80)}
           >
             How It Works
           </div>
@@ -90,14 +91,14 @@ export const NavBar = () => {
           </Link>
           <div
             className="hover:text-darkGrayishBlue cursor-pointer"
-           onClick={()=>goToHomeAndScroll("about-us")}
+           onClick={()=>goToHomeAndScroll("about-us",-80)}
           >
             About Us
           </div>
           
           <div
             className="hover:text-darkGrayishBlue cursor-pointer"
-           onClick={()=>goToHomeAndScroll("how-it-works")}
+            onClick={()=>goToHomeAndScroll("how-it-works",-80)}
           >
             How It Works
           </div>
