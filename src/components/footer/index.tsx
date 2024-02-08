@@ -76,7 +76,7 @@ export const Footer = () => {
               <div className="flex pl-0 flex-row gap-2">
                 <input
                   type="text"
-                  className="flex-1 md:px-4 px-2 rounded-full focus:outline-none"
+                  className="flex-1 md:px-4 px-2 indent-2 rounded-full focus:outline-none"
                   placeholder="subscribe to our emails"
                 />
                 <button className="md:px-6 px-4 py-2 text-white rounded-full bg-greenMain hover:bg-darkGreen focus:outline-none">
