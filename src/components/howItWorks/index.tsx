@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export const HowItworks = () => {
   return (
-    <div id="how-it-works" className=" mt-20 mb-12 flex flex-col align-center justify-center items-center md:px-6 px-4 w-full">
+    <div id="how-it-works" className="  mb-12 flex flex-col align-center justify-center items-center md:px-6 px-6 w-full">
       <h1 className="text-greenMain text-center text-2xl font-bold md:text-3xl mb-12">
         How It Works
       </h1>
@@ -13,7 +13,7 @@ export const HowItworks = () => {
             className="w-full md:h-96 h-3/4 object-cover rounded-lg "
           />
         </div>
-        <div className="md:w-1/2 w-full flex-col justify-center align-center leading-10   ">
+        <div className="md:w-1/2 w-full flex flex-col justify-center items-center md:leading-10  leading-7   ">
           <p className=' text-typographyGray-400'>
             <span className="text-blackSubtitles-500 font-bold ">Capture:</span> Snap a photo of your plant to predict diseases with our
             advanced machine learning platform.
@@ -24,7 +24,7 @@ export const HowItworks = () => {
           </p>
           <p className=' text-typographyGray-400'>
           <span className="text-blackSubtitles-500 font-bold ">Connect:</span> Find nearby agrovet services for quick and effective
-            solutions.
+            treatment of disease.
           </p>
           <p className=' text-typographyGray-400'>
           <span className="text-blackSubtitles-500 font-bold ">Monitor:</span> Stay informed with real-time statistics on trending plant
@@ -35,10 +35,10 @@ export const HowItworks = () => {
             outbreaks in your region.
           </p>
           <p className=' text-typographyGray-400 mb-4'>Experience the future of plant care – join us today!</p>
-          <div className="flex justify-start ">
+          <div className=" ">
             <Link
               to="/signup" 
-              className=" px-6 py-2 text-white bg-greenMain rounded-full baseline hover:bg-darkGreen"
+              className=" px-6 py-3 text-white bg-greenMain rounded-full baseline hover:bg-darkGreen"
             > 
               Get Started
             </Link>

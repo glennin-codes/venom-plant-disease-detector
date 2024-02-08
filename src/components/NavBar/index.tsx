@@ -20,7 +20,7 @@ export const NavBar = () => {
  
 
   return (
-    <nav style={{marginTop:0 ,top:0,}} className="fixed w-full top-0 mt-0 z-10 shadow-md mb-64  bg-gray-50  mx-auto   ">
+    <nav style={{marginTop:0 ,top:0,}} className="fixed w-full top-0 mt-0 z-10 shadow-md shadow-green-5 d0 mb-64  bg-gray-50  mx-auto   ">
       {/* flex container */}
       <div className="flex items-center justify-between px-4">
         {/* --logo-- */}

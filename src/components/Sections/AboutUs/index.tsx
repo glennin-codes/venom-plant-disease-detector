@@ -8,12 +8,12 @@ export const AboutUs=()=>{
         <section
         id="about-us"
 
-        className="w-full flex flex-col gap-4   items-center justify-center m-0 px-4 mb-4 space-y-4 "
+        className="w-full flex flex-col gap-4   items-center justify-center m-0 px-4  space-y-4 mb-16"
            
         >
             <h1
              
-            className="text-3xl font-bold text-center md:mb-6 text-greenMain "
+            className="md2:text-3xl text-2xl font-bold text-center md:mb-6 text-greenMain "
             >
                 About Us
             </h1>
@@ -27,7 +27,7 @@ export const AboutUs=()=>{
                </div>
                <div
                
-               className=" font-normal sm:text-base xsm:text-base leading-7 text-base md:text-lg w-full md:w-1/2  flex align-center  leading-relaxed  justify-center text-typographyGray-500 "
+               className=" flex font-normal text-md md:text-lg w-full md:w-1/2  flex   leading-relaxed  justify-center text-typographyGray-500 "
                >
                     {aboutUs}
                </div>

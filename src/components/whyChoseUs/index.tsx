@@ -4,7 +4,7 @@ import { Card } from "../ui-components/cards"
 export const WhyChoseUs=()=>{
     return(
         <div className="flex flex-col items-center justify-center w-full md:space-y-6 mb-16 ">
-        <h1 className="text-3xl font-bold text-greenMain mt-4">Why Chose Us</h1>
+        <h1 className="md2:text-3xl text-2xl font-bold text-greenMain mt-4">Why Chose Us</h1>
 
         <div className="flex flex-wrap justify-center w-full md:mb-32 px-2 mt-2 md:mt-0">
       {whyChoseUsConst.map(({icon,title,content},i:number) => (

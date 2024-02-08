@@ -15,18 +15,18 @@ export const HereosSection = ({ title }: heroesProps) => {
       
       <div className="flex md:flex-row w-full gap-4 flex-col px-6 mx-auto space-y-4 md:space-y-0">
        
-        <div className="flex md:w-1/2 px-4 space-y-1 md:gap-6 gap-2 flex-col ">
-          <h1 className="text-4xl font-bold md:text-5xl md:text-left text-center">
+        <div className="flex md:w-1/2 md:px-4 space-y-1 md:gap-6 gap-2 flex-col ">
+          <h1 className="md2:text-4xl font-bold   w-full text-2xl md:text-left ">
             <span className="text-greenMain">Cultify:</span>
             {title.split(":").slice(1).join(":")}
           </h1>
-          <p className="text-center text-darkGrayishBlue-500 md:text-left text-center text-lg  ">
+          <p className="  mb-4 text-darkGrayishBlue-500   md2:text-lg   text-md font-normal ">
             {descripto}
           </p>
-          <div className="flex justify-start ">
+          <div className="flex md2:justify-start  justify-center">
             <Link
               to="/signup"
-              className="p-3 px-6 pt-2 text-white bg-greenMain rounded-full baseline hover:bg-darkGreen"
+              className="p-3 px-6 pt-2  font-md text-white bg-greenMain rounded-full baseline hover:bg-darkGreen"
             >
               Get Started
             </Link>
