@@ -78,7 +78,7 @@ export const NavBar = () => {
       </div>
 
       {/* <!-- Mobile Menu --> */}
-      <div className={`md2:hidden  w-sm top-0 mt-0 z-10 shadow-md shadow-green-50 `}>
+      <div className={`md2:hidden  font-monsterrat w-md top-0 mt-0 z-10 shadow-md shadow-green-50 `}>
         <div
           id="menu"
           className={`absolute   flex-col items-center  ${
