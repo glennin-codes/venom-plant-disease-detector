@@ -6,7 +6,7 @@ function Profile() {
 
   return (
     <div className="px-8">
-      <div className="flex flex-row justify-center items-center gap-6 w-full pl-16 mb-16">
+      <div className="flex flex-row justify-center items-center gap-6 w-full md:pl-16 mb-16">
         <div className="">
           <img
             className="h-auto max-w-full rounded-full"
@@ -15,8 +15,8 @@ function Profile() {
           />
         </div>
         <div className="flex flex-col  w-full ">
-          <h1 className="text-2xl  text-greenMain font-bold">Glen Ayienda</h1>
-          <h4 className="text-l font-bold">
+          <h1 className="md:text-2xl text-xl text-greenMain font-bold">Glen Ayienda</h1>
+          <h4 className="md:text-l text-md font-bold">
             
             Location bla bla
           </h4>
